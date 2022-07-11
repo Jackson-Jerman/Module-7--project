@@ -1,0 +1,23 @@
+The first time i ran nodemon for extraLargeArray i got results for the extraLargeArray 
+    insert 765.619125 ms
+    append 1.670084 ms *
+
+
+The first time i ran nodemon for tinyArray i got the results for the tinyArray 
+    insert 17.375 μs
+    append 51.167 μs
+
+The first time i ran nodemon for smallArray i got the results for the smallArray 
+    insert 23.416 μs
+    append 79 μs
+
+The first time i ran nodemon for mediumArray i got the results for the mediumArray 
+    insert 113.125 μs
+    append 71.417 μs *
+
+The first time i ran nodemon for largeArray i got the results for the largeArray 
+    insert 7.122208 ms
+    append 371.5 μs *
+
+
+As the size of the array increase the unshift method (insert) appeared to be more efficient. I think this is do the fact the the push method (append) has to loop through every value of the list before adding it to the list. therefore the unshift method is quicker with bigger lists or arrrays. 
